@@ -15,20 +15,23 @@
 
     <header class="cabecalho">
 
-        <a target="_blank" class="link" href="https://www.ifms.edu.br/">
-            <img class="logo " src="imagem/ifms_logo2.png" />
-        </a>
-
-        <div class="titulo">
-            Contato
+        <div class="div1">
+            <a target="_blank" class="link" href="https://www.ifms.edu.br/">
+                <img class="logo " src="imagem/ifms_logo2.png" />
+            </a>
+    
+            <div class="titulo">
+                Contato
+            </div>
+    
+    
+            <div class="redirecionar">
+                <li> <a target="_blank" class="link_cabecalho" href="tema_escolhido.html"> Inicial </a></li>
+                <li> <a target="_blank" class="link_cabecalho" href="Quem_Somos.html"> Quem Somos </a></li>
+                <li> <a target="_blank" class="link_cabecalho" href="Contato.html"> Contato </a></li>
+            </div>
         </div>
 
-
-        <div class="redirecionar">
-            <li> <a target="_blank" class="link_cabecalho" href="tema_escolhido.html"> Inicial </a></li>
-            <li> <a target="_blank" class="link_cabecalho" href="Quem_Somos.html"> Quem Somos </a></li>
-            <li> <a target="_blank" class="link_cabecalho" href="Contato.html"> Contato </a></li>
-        </div>
 
     </header>
 
@@ -54,32 +57,10 @@
                 <label for="mensagem"> Mensagem</label>
                 <textarea class="pergunta" cols="70" rows="10" id="mensagem"></textarea>
 
+                <input type="submit" value="Enviar" class="enviar">
+
             </section>
-
-            <fieldset>
-                    <legend> Meio de Contato</legend>
-                    <label for="r-email"><input type="radio" name="contato" value="email" id="r-email" class="radio">
-                        E-mail
-                    </label>
-
-                    <label for="r-telefone"><input type="radio" name="contato" value="telefone" id="r-telefone"
-                            class="radio"> Telefone </label>
-
-                    <label for="r-whatsapp"><input type="radio" name="contato" value="whatsapp" id="r-whatsapp"
-                            class="radio"> Whatsapp </label>
-
-            </fieldset>
-
-            <fieldset>
-                <legend id="opcao"> Periodo de contato </legend>
-                <select>
-                    <option> Manha </option>
-                    <option> Tarde </option>
-                    <option> Noite </option>
-                </select>
-            </fieldset>
-
-            <input type="submit" value="Enviar" class="enviar">
+        
 
         </form>
     </main>
