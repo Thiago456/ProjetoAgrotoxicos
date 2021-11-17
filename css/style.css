@@ -6,8 +6,8 @@ body {
 .cabecalho {
     background-color: rgb(91, 182, 30);
     /* height: 200px; */
-    height: 18vh
-    
+    /* height: 18vh */
+    padding: 20px;
 }
 
 .logo {
