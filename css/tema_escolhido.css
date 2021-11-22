@@ -1,34 +1,13 @@
-/* body{
-    background-color: rgb(00,80,00);
-} */
-
-
-
-/* header{
-    text-align: center;
-    background-color: #ffffffff;
-    font-size: 30px;
-    padding: 5px;
-    font-style: oblique;
-} */
-
-
-
-.lista{
-    text-align: center;
-    font-size: 20px;
-    padding-top: 8px;
-    
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
 }
 
-
-
-.imagem{
-    height: 500px;
-    width: 800px;
-    /* position: relative; */ 
-    /* top: 50px; */ 
-    /* left: 550px; */
-    border: solid black 5px;
+ul{
+    background-color: white;
+    width: 70%;
+    padding: 20px;
+    height: 70vh;
 }
- 
