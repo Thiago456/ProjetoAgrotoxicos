@@ -14,7 +14,8 @@ form{
     height: 75vh;
     /* background-image: linear-gradient(to right, #171617, #000000);
     background-image: linear-gradient(to bottom, #171617, #000000); */
-    background-color: rgb(135, 231, 71);
+    /* background-color: rgb(135, 231, 71); */
+    background-color: rgb(190, 245, 153);
 }
 
 label {
