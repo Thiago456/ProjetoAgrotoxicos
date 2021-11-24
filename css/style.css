@@ -1,25 +1,15 @@
 body {
-    /* background-color: black; */
     background-image: url(../imagem/plantiao2.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
-
 }
 
 .cabecalho {
     background-color: rgb(91, 182, 30);
-    /* height: 200px; */
-    /* height: 18vh */
     padding: 20px;
-    height: 100px;
+    height: 15vh;
     width: 70%;
-    margin-left: 14%;
-}
-
-.div1{
-    width: 100%; 
-    height: 100px;
 }
 
 .logo {
@@ -47,14 +37,19 @@ body {
     font-size: 17px;
 }
 
-.redirecionar{
-    /* margin-top: 12%; */
-}
-
 .link_cabecalho:hover{
 
 color: white;
 
+}
+
+main{
+    background-color: rgb(190, 245, 153);
+    width: 70%;
+    padding: 20px;
+    height: 75vh;
+    /* background-image: linear-gradient(to right, #171617, #000000);
+    background-image: linear-gradient(to bottom, #171617, #000000); */
 }
 
 .rodape{
@@ -62,11 +57,9 @@ color: white;
     background-color: rgb(91, 182, 30);
     color: black;
     text-align: center;
-    padding: 5px;
+    padding: 5px 20px 5px 20px;
     height: 2vh;
-    width: 71.6%;
-    position: relative;
-    left: 260px;
+    width: 70%;
 
 }
 
