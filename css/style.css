@@ -3,11 +3,12 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
+    font-family: 'Merriweather', serif;
 }
 
 .cabecalho {
     background-color: rgb(91, 182, 30);
-    padding: 20px;
+    padding: 30px;
     height: 15vh;
     width: 70%;
 }
@@ -46,7 +47,7 @@ color: white;
 main{
     background-color: rgb(190, 245, 153);
     width: 70%;
-    padding: 20px;
+    padding: 30px;
     height: 75vh;
     /* background-image: linear-gradient(to right, #171617, #000000);
     background-image: linear-gradient(to bottom, #171617, #000000); */
@@ -57,7 +58,7 @@ main{
     background-color: rgb(91, 182, 30);
     color: black;
     text-align: center;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 30px 5px 30px;
     height: 2vh;
     width: 70%;
 
