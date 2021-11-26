@@ -1,7 +1,10 @@
-.rodape{
-    display: flex;
+.rodape-flex{
+    display:flex;
     align-items: center;
     justify-content:space-between;
+    float:right;
+    width: 60%;
+    margin-top: 35px;
 }
 
 .redirecionar{

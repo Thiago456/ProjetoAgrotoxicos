@@ -24,13 +24,11 @@ main{
 
 .rodape{
     background-color: rgb(91, 182, 30);
-    text-align: center;
-    padding: 5px 5px 0px 5px;
+    padding: 5px;
 }
 
 .rodape p {
     font-size: 12px;
-    margin-left: 200px;
 }
 
 .logo-ifms{
