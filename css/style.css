@@ -19,10 +19,9 @@ body {
 }
 
 main{
-    /* background-color: rgb(190, 245, 153); */
     padding: 30px;
-    height: 700px;
-    width:70%;
+    height: 750px;
+    width:65%;
 }
 
 .rodape{
