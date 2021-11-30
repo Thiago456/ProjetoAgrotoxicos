@@ -5,6 +5,7 @@ body {
 
 .cabecalho {
     padding: 30px;
+    background-color: rgb(190, 245, 153);
 }
 
 .titulo {
@@ -18,13 +19,14 @@ body {
 }
 
 main{
-    background-color: rgb(190, 245, 153);
+    /* background-color: rgb(190, 245, 153); */
     padding: 30px;
     height: 700px;
+    width:70%;
 }
 
 .rodape{
-    background-color: rgb(91, 182, 30);
+    background-color: rgb(190, 245, 153);
     padding: 5px;
 }
 
@@ -38,6 +40,13 @@ main{
 
 .redirecionar{
     list-style-type: none;
+    background-color: rgb(142, 216, 93);
+    text-align: center;
+    padding: 10px;
+}
+
+.redirecionar li{
+    display: inline-block;
 }
 
 .link_rodape{
