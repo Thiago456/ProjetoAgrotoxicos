@@ -6,6 +6,7 @@ form{
 
 label {
     font-size: 22px;
+    padding: 5px;
 }
 
 legend {
@@ -34,7 +35,7 @@ input::placeholder {
     display: block;
     width: 20%;
     padding: 15px 0;
-    background-color: rgb(0, 201, 0);
+    background-color: rgb(142, 216, 93);
     font-size: 20px;
     border: none;
     margin: 15px 0 0 0;

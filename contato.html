@@ -9,68 +9,73 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/contato.css" />
     <link rel="stylesheet" href="css/flexbox.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header class="cabecalho">
-
-
-        <a target="_blank" class="link" href="https://www.ifms.edu.br/">
-            <img class="logo " src="imagem/ifms_logo2.png" />
-        </a>
-
-        <div class="titulo">
+    
+        <h1 class="titulo">
             Contato
-        </div>
-
-
-        <div class="redirecionar">
-            <li> <a target="_blank" class="link_cabecalho" href="Agrotoxicos.html"> Agrotóxicos </a></li>
-            <li> <a target="_blank" class="link_cabecalho" href="Quem_Somos.html"> Quem Somos </a></li>
-            <li> <a target="_blank" class="link_cabecalho" href="Contato.html"> Contato </a></li>
-        </div>
-
+            <img class="folha-imagem" src="imagem/folha.png" />
+        </h1>
 
 
     </header>
 
-
-    <main>
-
-        <form method="POST">
-
-
-
-            <label for="nomeCompleto"> Nome Completo</label>
-            <input class="pergunta" type="text" id="nomeCompleto" required>
+    <div class="redirecionar">
+        <li> <a target="_blank" class="link_rodape" href="Agrotoxicos.html"> Agrotóxicos </a></li>
+        <li> <a target="_blank" class="link_rodape" href="Quem_Somos.html"> Quem Somos </a></li>
+        <li> <a target="_blank" class="link_rodape" href="Contato.html"> Contato </a></li>
+        
+    </div>
 
 
-            <label for="email"> E-mail </label>
-            <input class="pergunta" type="email" id="email" required placeholder="email@dominio.com">
+    <div class="centro">
+        <main>
 
-
-            <label for="telefone"> Telefone </label>
-            <input class="pergunta" type="tel" id="telefone" required maxlength="14" placeholder="(xx)9xxxx-xxxx">
-
-
-            <label for="mensagem"> Mensagem</label>
-            <textarea class="pergunta" cols="70" rows="10" id="mensagem"></textarea>
-
-            <input type="submit" value="Enviar" class="enviar">
-
-
-
-
-        </form>
-    </main>
+            <form method="POST">
+    
+    
+    
+                <label for="nomeCompleto"> Nome Completo</label>
+                <input class="pergunta" type="text" id="nomeCompleto" required>
+    
+    
+                <label for="email"> E-mail </label>
+                <input class="pergunta" type="email" id="email" required placeholder="email@dominio.com">
+    
+    
+                <label for="telefone"> Telefone </label>
+                <input class="pergunta" type="tel" id="telefone" required maxlength="14" placeholder="(xx)9xxxx-xxxx">
+    
+    
+                <label for="mensagem"> Mensagem</label>
+                <textarea class="pergunta" cols="70" rows="10" id="mensagem"></textarea>
+    
+                <input type="submit" value="Enviar" class="enviar">
+    
+    
+    
+    
+            </form>
+        </main>
+    </div>
 
     <footer class="rodape">
 
-        &copy; Luiz Dias e Thiago Araujo - 2021
+        <a target="_blank" class="link" href="https://www.ifms.edu.br/">
+            <img class="logo-ifms" src="imagem/ifms_logo2.png" />
+        </a>
 
-    </footer>
+        <p>
+            &copy; Luiz Dias e Thiago Araujo - 2021 
+        </p>
 
+</footer>
 
 </body>
 
