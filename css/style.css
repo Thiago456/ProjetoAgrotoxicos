@@ -3,6 +3,8 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+
+
 .cabecalho {
     padding: 30px;
     background-color: rgb(190, 245, 153);
@@ -27,7 +29,11 @@ main{
 .rodape{
     background-color: rgb(190, 245, 153);
     padding: 5px;
+    
+        
+    
 }
+
 
 .rodape p {
     font-size: 12px;
@@ -62,6 +68,8 @@ main{
     color: white;
     
 }
+
+
 
 @media screen and (max-width: 768px){
 

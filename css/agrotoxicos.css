@@ -10,3 +10,74 @@
     margin: 35px 0 35px 0;
 }
 
+
+
+table {
+
+    margin: 20px 0 40px 0;
+    
+        
+    
+
+}
+
+.chave {
+
+    background-color: #555555;    
+    font-size: 18px;
+    
+        
+    
+}
+
+td {
+    text-align: justify;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 30px;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.pictograma {
+
+    max-width:90px;
+    max-height:90px;
+    width: auto;
+    height: auto;
+
+
+}
+
+.Cordafaixa{
+
+    background-color: red;
+
+}
+
+.Cordafaixa1{
+
+    background-color: yellow;
+
+}
+
+.Cordafaixa2{
+
+    background-color: blue;
+
+}
+
+.Cordafaixa3{
+
+    background-color: green;
+
+}
+
+td, th {
+
+border: 1px solid black;
+
+}
