@@ -20,29 +20,6 @@ body {
     height: 67px;
 }
 
-main{
-    padding: 30px;
-    height: 750px;
-    width:65%;
-}
-
-.rodape{
-    background-color: rgb(190, 245, 153);
-    padding: 5px;
-    
-        
-    
-}
-
-
-.rodape p {
-    font-size: 12px;
-}
-
-.logo-ifms{
-    height: 80px;
-}
-
 .redirecionar{
     list-style-type: none;
     background-color: rgb(142, 216, 93);
@@ -54,22 +31,53 @@ main{
     display: inline-block;
 }
 
-.link_rodape{
+.teste{
+    border-right: 2px outset rgb(0, 0, 0);
+}
+
+.link_menu{
     text-decoration: none;
     padding: 5px;
     color: black;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.link_rodape:hover{
+.link_menu:hover{
 
     color: white;
     
 }
 
 
+main{
+    padding: 30px;
+    height: 100%;
+    width:65%;
+}
+
+.aviaozinho{
+    height: 500px;
+    width: 100%;
+    margin: 0px 0 35px 0;
+}
+
+.rodape{
+    background-color: rgb(190, 245, 153);
+    padding: 5px;
+}
+
+
+.rodape p {
+    font-size: 12px;
+}
+
+.logo-ifms{
+    height: 80px;
+}
 
 @media screen and (max-width: 768px){
 
