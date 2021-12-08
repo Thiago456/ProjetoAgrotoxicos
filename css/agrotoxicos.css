@@ -17,8 +17,6 @@
 
 }
 
-
-
 table {
     margin: 20px 0 40px 0;
 }
@@ -74,6 +72,11 @@ td {
 
 td, th {
 
-border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
 
+}
+
+.teste{
+    height: 300px;
+    float: right;
 }
