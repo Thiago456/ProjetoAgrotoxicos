@@ -3,8 +3,6 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-
-
 .cabecalho {
     padding: 30px;
     background-color: rgb(190, 245, 153);
@@ -16,23 +14,17 @@ body {
     text-align: center;
 }
 
-.folha-imagem{
+.folha-imagem {
     height: 67px;
 }
 
-main{
+main {
     padding: 30px;
     height: 750px;
-    width:65%;
+    width: 65%;
 }
 
-.centro{
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.rodape{
+.rodape {
     background-color: rgb(190, 245, 153);
     padding: 5px;
 }
@@ -41,33 +33,26 @@ main{
     font-size: 12px;
 }
 
-.rodape-flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 58%;
-}
-
-.logo-ifms{
+.logo-ifms {
     height: 80px;
 }
 
-.redirecionar{
+.redirecionar {
     list-style-type: none;
     background-color: rgb(142, 216, 93);
     text-align: center;
     padding: 10px;
 }
 
-.redirecionar li{
+.redirecionar li {
     display: inline-block;
 }
 
-.teste{
+.link_borda {
     border-right: 2px outset rgb(0, 0, 0);
 }
 
-.link_menu{
+.link_menu {
     text-decoration: none;
     padding: 5px;
     color: black;
@@ -78,64 +63,48 @@ main{
     padding-right: 30px;
 }
 
-.link_menu:hover{
-
+.link_menu:hover {
     color: white;
-    
 }
 
-
-main{
+main {
     padding: 30px;
     height: 100%;
-    width:65%;
+    width: 65%;
 }
 
-.aviaozinho{
-    height: 500px;
-    width: 100%;
-    margin: 0px 0 35px 0;
-}
-
-.rodape{
+.rodape {
     background-color: rgb(190, 245, 153);
     padding: 5px;
 }
-
-
 
 .rodape p {
     font-size: 12px;
 }
 
-.logo-ifms{
+.logo-ifms {
     height: 80px;
 }
 
-@media screen and (max-width: 768px){
-
-.cabecalho{
-    padding: 10px;
-}
-
-.titulo{
-    font-size: 40px;
-    /* word-break: normal; */
-    text-align: center;
-}
-
-.folha-imagem{
-    height: 30px;
-}
-
-main{
-    width: 90%;
-    height: 1000px;
-    padding: 10px;
-}
-
-.rodape-flex{
-    width:90%;
-}
-
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        padding: 10px;
+    }
+    .titulo {
+        font-size: 40px;
+        /* word-break: normal; */
+        text-align: center;
+    }
+    .folha-imagem {
+        height: 30px;
+    }
+    main {
+        width: 90%;
+        height: 100%;
+        padding: 10px;
+    }
+    .link_menu {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }

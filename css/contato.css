@@ -1,4 +1,4 @@
-form{
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,23 +44,18 @@ input::placeholder {
     border-radius: 5px;
 }
 
-.enviar:hover{
+.enviar:hover {
     background-color: aqua;
 }
 
-@media screen and (max-width: 768px){
-
-.pergunta{
-    width: 90%;
-} 
-
-.enviar{
-    width: 40%;
+@media screen and (max-width: 768px) {
+    .pergunta {
+        width: 90%;
+    }
+    .enviar {
+        width: 40%;
+    }
+    main {
+        height: 600px;
+    }
 }
-
-main{
-    height: 600px;
-}
-
-}
-

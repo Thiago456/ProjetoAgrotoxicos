@@ -1,9 +1,13 @@
+.aviaozinho {
+    height: 500px;
+    width: 100%;
+    margin: 0px 0 35px 0;
+}
 
 .confh1 {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-
 }
 
 .conftxt {
@@ -12,14 +16,11 @@
     margin: 35px 0 35px 0;
 }
 
-strong{
-
+strong {
     font-weight: bold;
-
 }
 
 .confh2 {
-
     text-align: center;
     font-size: 30px;
     font-weight: bold;
@@ -31,7 +32,7 @@ table {
 }
 
 .chave {
-    background-color: #646363;    
+    background-color: #646363;
     font-size: 18px;
 }
 
@@ -45,60 +46,54 @@ td {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
-.pictograma {
 
-    max-width:90px;
-    max-height:90px;
+.pictograma {
+    max-width: 90px;
+    max-height: 90px;
     width: auto;
     height: auto;
 }
 
-.Cordafaixa{
-
+.Cordafaixa {
     background-color: red;
-
 }
 
-.Cordafaixa1{
-
+.Cordafaixa1 {
     background-color: yellow;
-
 }
 
-.Cordafaixa2{
-
+.Cordafaixa2 {
     background-color: blue;
-
 }
 
-.Cordafaixa3{
-
+.Cordafaixa3 {
     background-color: green;
-
 }
 
-td, th {
-
+td,
+th {
     border: 1px solid rgb(0, 0, 0);
-
 }
 
-.teste1{
-  
-        margin-top: 20px;
-        max-width:700px;
-        max-height:500px;
-        width: auto;
-        height: auto;
-        
-    
-    
+.teste1 {
+    margin-top: 20px;
+    max-width: 700px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
 }
 
 div {
+    text-align: center;
+}
 
-text-align: center;
-
+@media screen and (max-width: 768px) {
+    .teste1 {
+        margin-top: 20px;
+        width: 250px;
+    }
+    .aviaozinho {
+        height: 180px;
+    }
 }

@@ -1,0 +1,18 @@
+.centro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rodape-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 58%;
+}
+
+@media screen and (max-width: 768px) {
+    .rodape-flex {
+        width: 90%;
+    }
+}
