@@ -20,6 +20,38 @@ body {
     height: 67px;
 }
 
+main{
+    padding: 30px;
+    height: 750px;
+    width:65%;
+}
+
+.centro{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rodape{
+    background-color: rgb(190, 245, 153);
+    padding: 5px;
+}
+
+.rodape p {
+    font-size: 12px;
+}
+
+.rodape-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 58%;
+}
+
+.logo-ifms{
+    height: 80px;
+}
+
 .redirecionar{
     list-style-type: none;
     background-color: rgb(142, 216, 93);
@@ -82,10 +114,28 @@ main{
 
 @media screen and (max-width: 768px){
 
+.cabecalho{
+    padding: 10px;
+}
+
 .titulo{
-    font-size: 100px;
-    word-break: normal;
+    font-size: 40px;
+    /* word-break: normal; */
     text-align: center;
+}
+
+.folha-imagem{
+    height: 30px;
+}
+
+main{
+    width: 90%;
+    height: 1000px;
+    padding: 10px;
+}
+
+.rodape-flex{
+    width:90%;
 }
 
 }

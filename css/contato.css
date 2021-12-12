@@ -44,26 +44,22 @@ input::placeholder {
     border-radius: 5px;
 }
 
-@media screen and (max-width: 768px){
+.enviar:hover{
+    background-color: aqua;
+}
 
+@media screen and (max-width: 768px){
 
 .pergunta{
     width: 90%;
 } 
 
-.form1{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-form{
-    /* padding: 30px 10px; */
-}
-
 .enviar{
-    /* margin-left: 110px; */
     width: 40%;
+}
+
+main{
+    height: 600px;
 }
 
 }
