@@ -1,94 +1,45 @@
- 
-.meio { 
-    padding: 50px 0;
-}
-
-.Info {
-
-    display: flex ;
+main {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between; 
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 40px;
-    margin-top: 30px;
-
 }
 
-.item li{
-    height: 254px;
-}
-
-.item li:hover {
-   
-    border-color:rgb(0, 201, 0);
-    border-width: 4px;
-    border-style:solid;
-    
+.item {
+    display: flex;
+    margin: 20px 0px 20px 0;
+    background-color: rgb(142, 216, 93);
+    padding: 20px;
+    border-radius: 8px;
+    width: 70%;
 }
 
 .sub_titulo {
-
-    margin-left: 600px;
-    text-align:center;
+    text-align: center;
     width: 150px;
     font-size: 30px;
-    background-color: rgb(0, 201, 0);
 }
 
 .ImagemQUemSomos {
-
-    border-color:rgb(0, 201, 0);
+    border-color: rgb(190, 245, 153);
     border-width: 4px;
-    border-style:solid;
+    border-style: solid;
     width: 200px;
     height: 250px;
-
 }
 
-.meio p {
-    
+p {
     text-align: justify;
-    width: 300px; 
-    color: white;
     font-size: 14px;
-    float: right;
     line-height: 16px;
-    margin-left: 10px;
-    margin-top: 15px;
+    padding: 10px;
 }
 
-.link{
-    color: White;
+.link {
     text-decoration: underline;
 }
 
-
-.link:hover{
-    
-    color: rgb(0, 201, 0);
-    
-}
-
-@media screen and (max-width: 768px){
-
-.sub_titulo{
-    margin-left: 30px;
-}
-    
-.meio p{
-    width: 100%; 
-    font-size: 20px;
-    clear: right;
-    padding-bottom: 25px;
-}
-
-.item img{
-    margin-left: 80px;
-} 
-
-.item li:hover {
-    border-width: 0px;
-}
-
+@media screen and (max-width: 768px) {
+    .item {
+        flex-direction: column;
+    }
 }
