@@ -44,8 +44,14 @@ input::placeholder {
     border-radius: 5px;
 }
 
+.rodape{
+    position: absolute;
+    bottom: 0;
+    width: 99.5%;
+}
+
 .enviar:hover {
-    background-color: aqua;
+    background-color: rgb(30, 158, 62);
 }
 
 @media screen and (max-width: 768px) {
