@@ -1,6 +1,7 @@
 body {
     background-color: white;
     font-family: 'Merriweather', serif;
+    height: 100%;
 }
 
 .cabecalho {
@@ -16,17 +17,6 @@ body {
 
 .folha-imagem {
     height: 67px;
-}
-
-main {
-    padding: 30px;
-    height: 750px;
-    width: 65%;
-}
-
-.rodape {
-    background-color: rgb(190, 245, 153);
-    padding: 5px;
 }
 
 .rodape p {

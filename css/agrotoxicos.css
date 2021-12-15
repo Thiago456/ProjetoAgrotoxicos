@@ -88,6 +88,20 @@ div {
     text-align: center;
 }
 
+.Palavra1 {
+
+    color: green;
+}
+.Palavra2 {
+
+    color: rgb(0, 131, 253);
+}
+
+.Palavra3 {
+
+    color: red;
+}
+
 @media screen and (max-width: 768px) {
     .teste1 {
         margin-top: 20px;
