@@ -27,7 +27,7 @@
     height: 250px;
 }
 
-p {
+.item p {
     text-align: justify;
     font-size: 14px;
     line-height: 16px;

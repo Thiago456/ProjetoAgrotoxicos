@@ -2,12 +2,13 @@ body {
     background-color: white;
     font-family: 'Merriweather', serif;
     height: 100%;
-    background-image: url(../imagem/background2.png);
+    background-image: url(../imagem/Background3.png);
 }
 
 .cabecalho {
     padding: 30px;
     background-color: rgb(190, 245, 153);
+    height: 10%;
 }
 
 .titulo {
@@ -70,6 +71,7 @@ main {
 .rodape {
     background-color: rgb(190, 245, 153);
     padding: 5px;
+    height: 10%;
 }
 
 .rodape p {
@@ -78,6 +80,10 @@ main {
 
 .logo-ifms {
     height: 80px;
+}
+
+.logo{
+    height: 120px;
 }
 
 @media screen and (max-width: 768px) {
