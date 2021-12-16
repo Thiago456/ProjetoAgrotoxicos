@@ -103,6 +103,10 @@ div {
     color: red;
 }
 
+.Palavra4 {
+    color: rgb(179, 179, 0);
+}
+
 @media screen and (max-width: 768px) {
     .teste1 {
         margin-top: 20px;
